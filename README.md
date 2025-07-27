@@ -1,6 +1,6 @@
 # Spring Boot-Thymeleaf 팀 프로젝트 - 아모레 퍼시픽
 <div align="center">
-    <img width="740" height="123" alt="login-logo" src="https://github.com/user-attachments/assets/b23c86d9-03d6-4db5-995b-d7154104173e" />
+    <img width="740" height="123" alt="login-logo" src="https://github.com/user-attachments/assets/bc99cfd7-11c8-4d2c-b3a0-2ea6f74f3f07" />
 </div>
 
 ## 목차
@@ -31,11 +31,12 @@
 
 - 요구사항 명세서
 
-    <img width="970" height="418" alt="image" src="https://github.com/user-attachments/assets/3e10dae8-e917-4c61-be1d-b3df32eeeea4" />
+    <img width="970" height="418" alt="image (9)" src="https://github.com/user-attachments/assets/59df2bd1-9574-4717-833a-3cf424e0fec3" />
 
 - ERD
-    
-    <img width="1325" height="1075" alt="erd" src="https://github.com/user-attachments/assets/98e883c7-9928-40b5-bf03-c957583cc9c6" />
+
+    <img width="1325" height="1075" alt="erd" src="https://github.com/user-attachments/assets/9617fe3b-3dd1-41ed-a353-e08df60a7b9a" />
+
 
 
 ## **✨ 주요 기능**
@@ -45,15 +46,17 @@
 - **Kakao OAuth**
     - Kakao OAuth를 통해 사용자가 카카오 계정으로 간편하고 안전하게 로그인할 수 있습니다.
 
-<img width="380" height="947" alt="ceed82d6-babe-4bc7-b45e-56d28cf829fc" src="https://github.com/user-attachments/assets/c722f11c-166f-4df0-9524-b7e7e4c34b26" />
-<img width="380" height="944" alt="e2fad92f-76f9-48ff-8ff8-95e8037092db" src="https://github.com/user-attachments/assets/a2011574-636e-4f0e-8a98-402657c44b7a" />
+    <img width="380" height="485" alt="메일전송" src="https://github.com/user-attachments/assets/66a1d05d-c244-4251-9034-15c334851847" />
+    <img width="380" height="651" alt="메일" src="https://github.com/user-attachments/assets/e7538a27-7bc4-44f9-9ac2-b4bc62e952a2" />
+
 
 ### 2️⃣ Kakao Pay 결제
 
 - **Kakao Pay** **API**
     - KakaoPay API를 연동하여 카드, 계좌이체, 간편결제 등 다양한 결제 수단으로 쉽고 안전하게 결제할 수 있습니다.
 
-<img width="380" height="480" alt="image 1" src="https://github.com/user-attachments/assets/639d9443-628b-4977-8c6f-389e2d709c05" />
+    <img width="380" height="952" alt="image (10)" src="https://github.com/user-attachments/assets/fe1b4ad7-4bcd-4ad0-a9b8-48d8fb1d20a2" />
+
 
 ## **🎬 기능 구현**
 
@@ -68,7 +71,8 @@
     - 비밀번호와 비밀번호 확인(Confirm Password) 입력값을 비교.
     - 불일치 시 오류 메시지를 출력하여 재입력 요구.
   
-![ap-user](https://github.com/user-attachments/assets/83be4883-b171-4b2f-848a-abd6791abf30)
+![ap-user](https://github.com/user-attachments/assets/d41d7f3c-214e-4392-97b6-8d6e28e811c6)
+
 
 ### ✔ 상품/장바구니/결제
 
@@ -76,7 +80,7 @@
 - **장바구니**: 상품 담기, 수량 변경, 선택/전체 결제 기능 제공.
 - **결제**: **TossPayments API**를 연동해 카드·계좌이체 등 다양한 결제 수단 지원, 결제 성공/실패 시 주문 상태 자동 업데이트.
 
-![ap-goods](https://github.com/user-attachments/assets/347b129c-cce6-488a-8be6-b25b747d892e)
+![ap-goods](https://github.com/user-attachments/assets/9573f33a-777b-4fb3-b492-5636d93f4ef1)
 
 
 ### ✔ 리뷰 작성
@@ -85,9 +89,8 @@
 - **수정·삭제**: 작성한 리뷰는 수정 및 삭제 가능.
 - **리뷰 표시**: 상품 상세 페이지에 리뷰와 평점 표시.
 
-![ap-review](https://github.com/user-attachments/assets/304bce0e-9e6d-4f0e-b9cf-6bfa1dd18975)
-![ap-goods-review](https://github.com/user-attachments/assets/c3c4e6a0-45cf-415c-8d94-51f32ec8b5a1)
-
+![ap-review](https://github.com/user-attachments/assets/8c4a823b-d5cc-4032-898b-6030f53c9dc1)
+![ap-goods-review](https://github.com/user-attachments/assets/66a656a1-94a9-4fb5-bca1-a6e52ddf7d36)
 
 
 ### ✔ 공지사항 등록/수정/삭제
@@ -96,7 +99,7 @@
 - **수정**: 기존 공지 내용 업데이트.
 - **삭제**: 불필요한 공지 제거.
 
-![ap-notice](https://github.com/user-attachments/assets/5e744a5b-35d3-45fb-b3bf-b56d9eba84e4)
+![ap-notice](https://github.com/user-attachments/assets/de8a83de-4c55-4f0d-be86-9c9ca7d3ea62)
 
 
 ### ✔ Q&A 등록/수정
@@ -104,15 +107,15 @@
 - **등록**: 사용자가 질문 작성.
 - **수정**: 사용자가 질문 수정.
 
-![ap-qna](https://github.com/user-attachments/assets/2ed0a72f-a8d1-49c0-9700-c91b02f808b8)
-  
+![ap-qna](https://github.com/user-attachments/assets/ca903da9-5a4c-49a3-a6f1-938c4af77ebc)
+
 
 ### ✔ 관리자 **Q&A** 답변 등록/삭제
 
 - **등록**: 관리자가 사용자 질문에 대한 답변 작성.
 - **삭제**: 불필요하거나 잘못된 답변 삭제.
 
-![ap-qna-ans](https://github.com/user-attachments/assets/c82e8758-42e2-487e-a7d2-dd6fc85542c5)
+![ap-qna-ans](https://github.com/user-attachments/assets/f623197a-6d84-47ff-8cab-39b30d7ae8a5)
 
 
 ### ✔ **관리자 대시보드**
@@ -120,4 +123,5 @@
 - 회원 수, 상품 수, 주문 수, 리뷰 수 등 주요 데이터를 한눈에 확인할 수 있는 요약 패널 제공
 - 좌측 사이드바로 공지사항, 회원, 상품, 주문, 리뷰, Q&A, 채팅,  기능을 직관적으로 탐색 가능
 
-![ap-admin](https://github.com/user-attachments/assets/1d7cd8ce-6e9e-43f3-a226-fe3f3cc615d7)
+![ap-admin](https://github.com/user-attachments/assets/99c59177-8392-4513-9c5f-cc8f746a0106)
+
